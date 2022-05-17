@@ -24,8 +24,6 @@ public:
 
     double evaluate(std::unordered_map<std::string, double> token_value_map);
 
-    int tokens_size();
-
     void clear_container();
 
     void define_token(std::string token);

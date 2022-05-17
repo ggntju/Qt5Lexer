@@ -18,6 +18,8 @@ HEADERS += \
     lexertk.h \
     qt5lexer.h
 
+win32:QMAKE_CXXFLAGS += /bigobj
+
 # Default rules for deployment.
 unix {
     target.path = /usr/lib
